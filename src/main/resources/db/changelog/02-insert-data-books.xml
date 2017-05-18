@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+  <changeSet id="03" author="hhimanshu">
+    <comment>Inserting Books</comment>
+    <insert tableName="books">
+      <column name="id" valueNumeric="1"/>
+      <column name="name" value="book_01_a_01"/>
+      <column name="author" valueNumeric="01"/>
+    </insert>
+    <insert tableName="books">
+      <column name="id" valueNumeric="2"/>
+      <column name="name" value="book_02_a_02"/>
+      <column name="author" valueNumeric="02"/>
+    </insert>
+    <insert tableName="books">
+      <column name="id" valueNumeric="3"/>
+      <column name="name" value="book_01_a_03"/>
+      <column name="author" valueNumeric="03"/>
+    </insert>
+    <insert tableName="books">
+      <column name="id" valueNumeric="4"/>
+      <column name="name" value="book_01_a_04"/>
+      <column name="author" valueNumeric="04"/>
+    </insert>
+    <insert tableName="books">
+      <column name="id" valueNumeric="5"/>
+      <column name="name" value="book_01_a_05"/>
+      <column name="author" valueNumeric="05"/>
+    </insert>
+  </changeSet>
+</databaseChangeLog>
