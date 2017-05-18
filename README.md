@@ -1,6 +1,7 @@
 ## Evolve your Spring-Boot application with Liquibase [![Build Status](https://travis-ci.org/hhimanshu/spring-boot-liquibase.svg?branch=master)](https://travis-ci.org/hhimanshu/spring-boot-liquibase)
 
 ### Blog
+https://medium.com/@harittweets/evolving-your-database-using-spring-boot-and-liquibase-844fcd7931da
 
 ### How to run?
 clone the codebase
