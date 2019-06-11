@@ -12,7 +12,7 @@ import javax.persistence.Table;
 public class Author {
 
   /**
-   * Explaining strategy: https://thoughts-on-java.org/jpa-generate-primary-keys/
+   * Explaining strategies: https://thoughts-on-java.org/jpa-generate-primary-keys/
    */
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
