@@ -11,8 +11,11 @@ import javax.persistence.Table;
 @Table(name = "authors")
 public class Author {
 
+  /**
+   * Explaining strategies: https://thoughts-on-java.org/jpa-generate-primary-keys/
+   */
   @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Integer id;
 
   @Column(nullable = false, unique = true)

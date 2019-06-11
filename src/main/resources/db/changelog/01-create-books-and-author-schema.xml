@@ -9,7 +9,7 @@
   <changeSet id="01" author="hhimanshu">
     <createTable tableName="books"
       remarks="A table to contain all books">
-      <column name="id" type="int">
+      <column name="id" type="int" autoIncrement="true">
         <constraints nullable="false" unique="true" primaryKey="true"/>
       </column>
       <column name="name" type="varchar(255)">
@@ -22,7 +22,7 @@
 
     <createTable tableName="authors"
       remarks="A table to contain all the authors">
-      <column name="id" type="int">
+      <column name="id" type="int" autoIncrement="true">
         <constraints nullable="false" primaryKey="true"/>
       </column>
       <column name="name" type="varchar(100)">
