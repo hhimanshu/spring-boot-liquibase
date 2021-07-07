@@ -90,5 +90,6 @@
 <sonar.jdbc.password>admin</sonar.jdbc.password>        -->                 
 
             </properties>	
-
+ </profile>
+      </profiles>
 </project>
