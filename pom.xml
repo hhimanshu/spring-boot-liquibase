@@ -84,10 +84,10 @@
 	
 
 	
- <!--  <sonar.jdbc.url>your database URL</sonar.jdbc.url>
+ <sonar.jdbc.url>your database URL</sonar.jdbc.url>
 <sonar.jdbc.driver>Your database driver</sonar.jdbc.driver>
 <sonar.jdbc.username>admin</sonar.jdbc.username>
-<sonar.jdbc.password>admin</sonar.jdbc.password>        -->                 
+<sonar.jdbc.password>admin</sonar.jdbc.password>               
 
             </properties>	
  </profile>
