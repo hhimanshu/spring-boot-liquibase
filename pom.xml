@@ -90,6 +90,20 @@
 <sonar.jdbc.password>admin</sonar.jdbc.password>               
 
             </properties>	
+		
+<distributionManagement>
+    <repository>
+      <id>spring-boot-liquibase-release</id>
+      <name>spring-boot-liquibase-release</name>
+      <url>http://54.188.116.84:8081/repository/spring-boot-liquibase-release/</url>
+    </repository>
+    <snapshotRepository>
+      <id>spring-boot-liquibase-release-Snapshot</id>
+      <name>spring-boot-liquibase-release-Snapshot</name>
+      <url>http://54.188.116.84:8081/repository/spring-boot-liquibase-release-Snapshot/</url>
+    </snapshotRepository>
+  </distributionManagement>
+		
  </profile>
       </profiles>
 </project>
