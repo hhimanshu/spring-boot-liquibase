@@ -50,7 +50,6 @@
      <scope>test</scope>
 
     </dependency>
-	<dependencies>
 		<dependency>
 			<groupId>org.liquibase</groupId>
 			<artifactId>liquibase-core</artifactId>
