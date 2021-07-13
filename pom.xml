@@ -141,9 +141,9 @@
       <url>http://54.188.116.84:8081/repository/spring-boot-liquibase-release/</url>
     </repository>
     <snapshotRepository>
-      <id>spring-boot-liquibase-release-Snapshot</id>
-      <name>spring-boot-liquibase-release-Snapshot</name>
-      <url>http://54.188.116.84:8081/repository/spring-boot-liquibase-release-snapshot/</url>
+      <id>spring-boot-liquibase-snapshot</id>
+      <name>spring-boot-liquibase-snapshot</name>
+      <url>http://54.188.116.84:8081/repository/spring-boot-liquibase-snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
 		
