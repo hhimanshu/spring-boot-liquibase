@@ -137,5 +137,12 @@ pipeline {
                 }
             }
         }
+        stage ('Starting downstream job ') {
+        steps {
+        build job: 'Install_springbootliquibase_App'
+  }
+}
+
+        
    }
 }
