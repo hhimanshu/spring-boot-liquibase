@@ -120,24 +120,20 @@
                 <artifactId>maven-site-plugin</artifactId>
                 <version>3.7.1</version>
             </plugin>
-            <plugin>
+              <!-- `mvn clean test site` to generate the junit html report-->
+    <reporting>
+		<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M4</version>
             </plugin>
-        </plugins>
+	        </reporting>
+   
     </build>
+</plugins>
+ 
+      
 
-    <!-- `mvn clean test site` to generate the junit html report-->
-    <reporting>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-report-plugin</artifactId>
-                <version>3.0.0-M4</version>
-            </plugin>
-        </plugins>
-    </reporting>
 <profiles>
         <profile>
             <id>sonar</id>
