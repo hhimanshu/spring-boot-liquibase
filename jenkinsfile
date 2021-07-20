@@ -53,7 +53,7 @@ pipeline {
          
        stage('Publish Test Results') {
              steps{
-               junit keepLongStdio: true, testResults: 'target/surefire-reports/TEST-com.hhimanshu.SpringBootLiquibaseApplicationTests.xml'
+               junit 'target/surefire-reports/*.xml'
               }
          }
          
