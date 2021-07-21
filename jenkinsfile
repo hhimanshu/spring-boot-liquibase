@@ -157,6 +157,7 @@ pipeline {
        println "There are some failing tests."
    }
  }
+ }
 
   /*      stage ('Starting downstream job ') {
         steps {
