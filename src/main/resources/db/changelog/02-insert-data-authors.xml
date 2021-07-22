@@ -28,5 +28,14 @@
       <column name="id" valueNumeric="5"/>
       <column name="name" value="author_05"/>
     </insert>
+      <insert tableName="authors">
+      <column name="id" valueNumeric="6"/>
+      <column name="name" value="author_06"/>
+    </insert>  
+    <insert tableName="authors">
+      <column name="id" valueNumeric="7"/>
+      <column name="name" value="author_07"/>
+    </insert>
+    
   </changeSet>
 </databaseChangeLog>
